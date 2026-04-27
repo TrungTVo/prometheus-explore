@@ -1,0 +1,12 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "demo-node-express-server",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["--prefix", "node-express-server", "run", "start:demo"],
+      "port": 3000,
+      "autoPort": true
+    }
+  ]
+}
