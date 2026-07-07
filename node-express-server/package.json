@@ -4,7 +4,8 @@
     "description": "Sample demo of node express server",
     "scripts": {
         "build": "sh build.sh",
-        "start:demo": "node dist/demo/index.js"
+        "start:demo": "node dist/demo/index.js",
+        "traffic:demo": "node scripts/generate-demo-traffic.js"
     },
     "author": "Trung Vo",
     "license": "ISC",
